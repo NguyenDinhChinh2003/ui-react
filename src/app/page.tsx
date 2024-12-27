@@ -1,10 +1,10 @@
-import Image from "next/image";
-import proFile from '../../public/file.svg'
-
-export default function Home() {
-  return (
-    <div className="w-5">
-      <Image src={proFile} width={200} height={200} alt="image" />
+export default function home()
+{
+    return <div className="container">
+        <ul className="">
+            <li><a href="" className="underline decoration-4">Home</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Page</a></li>
+        </ul>
     </div>
-  )
 }
